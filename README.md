@@ -28,8 +28,8 @@ The goal is to build a strong foundation in C++ and gradually develop the skills
 - [x] `std::endl`
 - [x] `std::cin`
 - [x] Comments
-- [ ] Compilation and execution
-- [ ] Understanding compiler errors
+- [x] Compilation and execution
+- [x] Understanding compiler errors
 
 ### 3. C++ Fundamentals
 
