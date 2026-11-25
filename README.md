@@ -27,7 +27,7 @@ The goal is to build a strong foundation in C++ and gradually develop the skills
 - [x] Structure of a C++ program (first program)
 - [x] `std::endl`
 - [x] `std::cin`
-- [ ] Comments
+- [x] Comments
 - [ ] Compilation and execution
 - [ ] Understanding compiler errors
 

@@ -1,9 +1,29 @@
 #include <iostream>
 using namespace std;
-int main(){
+
+
+// ****************** Example 1 *******************
+void getName(){
+    string name;
+    cout << "Please enter your name: ";
+    cin >> name;
+    cout << "Welcome back " << name << " !" << endl;
+}
+
+// ****************** Example 2 *******************
+void getAge() {
     int age;
     cout << "Please enter your age: ";
-    cin >> age; //Takes input from the user and stores it in the age variable.
-    cout << "you are " << age << " years old";
+
+    if (cin >> age) {
+        cout << "You are " << age << " years old";
+    } else {
+        cout << "Invalid input";
+    }
+}
+
+int main(){
+    getName();
+    getAge();
     return 0;
 }
